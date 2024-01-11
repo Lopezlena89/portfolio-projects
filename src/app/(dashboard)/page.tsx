@@ -2,7 +2,6 @@
 
 import { PhraseMain } from "@/components/PhraseMain";
 import { data } from "@/utils/data-phrases";
-import { random } from "colors";
 import Link from "next/link";
 import { useEffect, useState } from 'react';
 

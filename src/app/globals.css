@@ -54,7 +54,7 @@
     margin: auto auto 12px auto;
     border-radius: 24px;
     padding: 2px;
-    background-color:white;
+    
     box-shadow:0px 0px 1px gray;
 }
   .dock ul {
@@ -75,14 +75,14 @@
     height: 50%; 
   }
   
-  .app a {
+  .app a, .app button {
     display: flex;
     position:relative;
     border-radius: 100%;
-    color:rgb(148, 148, 148);
+    
     justify-content:center;
     align-items:center;
-    background:#EEEEED;
+   
   }
   
   .app:hover .tooltip,
@@ -93,14 +93,14 @@
   .tooltip {
     position: absolute;
     top: -40px;
-    left: 50%;
+    left: 40%;
     transform: translateX(-40%);
     opacity: 0;
     transition: ease-in opacity 100ms;
     display: flex;
     justify-content:center;
     align-items:center;
-    background: white;
+   
     padding: 10px;
     border-radius: 5px;
     box-shadow:0px 0px 1px gray;

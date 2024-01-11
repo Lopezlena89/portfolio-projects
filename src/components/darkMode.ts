@@ -1,6 +1,4 @@
 
-// window.matchMedia('(prefers-color-scheme: dark)').matches)
-//('theme' in localStorage)
 
 export const darkMode = () =>{
 

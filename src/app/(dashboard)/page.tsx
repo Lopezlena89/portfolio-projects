@@ -1,9 +1,11 @@
 'use client'
 
+import { Footer } from "@/components/Footer";
 import { PhraseMain } from "@/components/PhraseMain";
 import { data } from "@/utils/data-phrases";
-import Link from "next/link";
+
 import { useEffect, useState } from 'react';
+
 
 export default function Home() {
 
@@ -36,13 +38,7 @@ export default function Home() {
             </div>
           </div>
           <div className="w-full h-20 px-5 flex justify-between items-center">
-            <Link href={"mailto:luismllv89@gmail.com"}>
-              <h3 className="text-sm font-light text-gray-600 dark:text-zinc-400" >Luis Mariano Lopez Lena Valdivieso <span className="opacity-0 sm:opacity-100">-</span> Developer</h3>
-            </Link>
-            <Link href='/projects'>
-                <span className="text-sm font-light text-gray-600 dark:text-zinc-400" >Portfolio </span>
-                <span className="text-sm font-light text-gray-600 dark:text-zinc-400" > © { new Date().getFullYear() }</span>
-            </Link>
+            <Footer/>
           </div>
 
         </div>

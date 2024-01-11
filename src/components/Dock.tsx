@@ -54,12 +54,10 @@ export const Dock = () => {
       `${offsetPixels}px`
     );
   };
-
   
-
   return (
     <div className="page fixed bottom-10 w-[90%] text-sm sm:w-[70%] md:w-auto">
-    <nav ref={dockRef} className="dock bg-white dark:bg-zinc-900">
+    <nav ref={dockRef} className="dock bg-white dark:bg-zinc-900 mb-8  md:mb-5">
       <ul >
         <li className="app" onMouseMove={handleAppHover}>
           <Link 

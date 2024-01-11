@@ -38,11 +38,11 @@ export default function Home() {
           </div>
           <div className="w-full h-20 px-5 flex justify-between items-center">
             <Link href={"mailto:luismllv89@gmail.com"}>
-              <h3 className="font-light text-gray-600 dark:text-zinc-400" >Luis Mariano Lopez Lena Valdivieso - Developer</h3>
+              <h3 className="text-sm font-light text-gray-600 dark:text-zinc-400" >Luis Mariano Lopez Lena Valdivieso <span className="opacity-0 sm:opacity-100">-</span> Developer</h3>
             </Link>
             <Link href='/projects'>
-                <span className="font-light text-gray-600 dark:text-zinc-400" >Portfolio </span>
-                <span className="font-light text-gray-600 dark:text-zinc-400" > © { new Date().getFullYear() }</span>
+                <span className="text-sm font-light text-gray-600 dark:text-zinc-400" >Portfolio </span>
+                <span className="text-sm font-light text-gray-600 dark:text-zinc-400" > © { new Date().getFullYear() }</span>
             </Link>
           </div>
 

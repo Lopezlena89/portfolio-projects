@@ -82,7 +82,7 @@ export default function Page() {
             </Link>
           </div>
         </div>
-        <div className="w-full h-[280px] p-1  rounded-lg border boder-solid border-zinc-300 dark:border-zinc-700 ">
+        <div className="w-full h-[270px] p-1  rounded-lg border boder-solid border-zinc-300 dark:border-zinc-700 ">
           <div className="w-full h-[87%] p-1 rounded-lg bg-gray-100 dark:bg-zinc-900">
             <Image
               src="/todo-app.png"

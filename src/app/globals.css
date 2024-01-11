@@ -51,10 +51,9 @@
   }
   
   .dock {
-    margin: auto auto 12px auto;
+    
     border-radius: 24px;
     padding: 2px;
-    
     box-shadow:0px 0px 1px gray;
 }
   .dock ul {
@@ -100,7 +99,6 @@
     display: flex;
     justify-content:center;
     align-items:center;
-   
     padding: 10px;
     border-radius: 5px;
     box-shadow:0px 0px 1px gray;

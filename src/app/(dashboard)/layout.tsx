@@ -1,7 +1,7 @@
+import { Dock } from '@/components/Dock'
 import type { Metadata } from 'next'
-import { GeistSans } from 'geist/font/sans';
-import { GeistMono } from 'geist/font/mono';
-import './globals.css'
+
+
 
 export const metadata: Metadata = {
   title: 'Profile',
@@ -14,10 +14,10 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" >
-      <body className={GeistSans.className}>
-        {children}
-      </body>
-    </html>
+    <div className='w-screen h-screen bg-white flex flex-col items-center '>
+            {children}
+        <Dock/>
+    </div>
+ 
   )
 }

@@ -42,47 +42,47 @@ export const Dock = () => {
 
 
   return (
-    <div className="page">
-    <nav ref={dockRef} className="dock">
-      <ul>
+    <div className="page fixed bottom-10 w-[90%] text-sm sm:w-[70%] md:w-auto">
+    <nav ref={dockRef} className="dock ">
+      <ul >
         <li className="app" onMouseMove={handleAppHover}>
-          <Link href="/" >
-            <IoHomeSharp size={30}/>
+          <Link href="/" className="h-[60%] w-[70%] sm:h-[70%] sm:w-[70%]" target="_blank" >
+            <IoHomeSharp size={30} />
             <span className="tooltip">Home</span>
           </Link>
         </li>
         <li className="app" onMouseMove={handleAppHover}>
-          <Link href="/" >
+          <Link href="/projects" className="h-[60%] w-[70%] sm:h-[70%] sm:w-[70%]" target="_blank"  >
             <HiOutlineLightBulb size={30}/>
             <span className="tooltip">Projects</span>
           </Link>
         </li>
         <li className="app" onMouseMove={handleAppHover}>
-          <Link href="/" >
+          <Link href="https://twitter.com/Luismllv89" className="h-[60%] w-[70%] sm:h-[70%] sm:w-[70%]" target="_blank"  >
             <FaTwitter size={30}/>
             <span className="tooltip">Twitter</span>
           </Link>
         </li>
         <li className="app" onMouseMove={handleAppHover}>
-          <Link href="/" >
+          <Link href="https://github.com/Lopezlena89" className="h-[60%] w-[70%] sm:h-[70%] sm:w-[70%]" target="_blank"  >
             <IoLogoGithub size={30}/>
             <span className="tooltip">Github </span>
           </Link>
         </li>
         <li className="app" onMouseMove={handleAppHover}>
-          <Link href="/" >
+          <Link href="https://www.linkedin.com/in/luis-mariano-lopez-lena-valdivieso-a514073a/" className="h-[60%] w-[70%] sm:h-[70%] sm:w-[70%]" target="_blank"  >
            <IoLogoLinkedin size={30}/>
             <span className="tooltip">Linkedin</span>
           </Link>
         </li>
         <li className="app" onMouseMove={handleAppHover}>
-          <Link href="/" >
+          <Link href="/" className="h-[60%] w-[70%] sm:h-[70%] sm:w-[70%]"  target="_blank" >
             <IoMail size={30}/>
             <span className="tooltip">Email</span>
           </Link>
         </li>
         <li className="app" onMouseMove={handleAppHover}>
-          <Link href="/" >
+          <Link href="/" className="h-[60%] w-[70%] sm:h-[70%] sm:w-[70%]" target="_blank"  >
            <MdDarkMode size={30}/>
             <span className="tooltip">Toogle theme</span>
           </Link>

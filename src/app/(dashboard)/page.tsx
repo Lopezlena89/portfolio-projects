@@ -27,7 +27,7 @@ export default function Home() {
           <div className="w-full h-full flex justify-center items-center">
             <div className="w-4/6 h-2/5">
                 <div className="flex justify-center items-center relative">
-                  <h1 className="font-semibold text-2xl absolute dark:text-zinc-100">Welcome</h1>
+                  <h1 className="font-semibold text-2xl absolute dark:text-zinc-100 mb-10">Welcome</h1>
                 </div>
                {
                 data.map((data,index) =>(

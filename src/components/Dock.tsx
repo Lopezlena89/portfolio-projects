@@ -1,29 +1,48 @@
 'use client'
 
 import { scaleValue } from "../utils/dock-util";
-import {  useEffect, useRef } from "react";
+import {  useEffect, useRef, useState } from "react";
 import { IoHomeSharp,IoMail,IoLogoGithub,IoLogoLinkedin } from "react-icons/io5";
 import { HiOutlineLightBulb } from "react-icons/hi2";
 import { FaTwitter } from "react-icons/fa";
-import { MdDarkMode } from "react-icons/md";
+import { MdDarkMode,MdOutlineLightMode } from "react-icons/md";
 import Link from "next/link";
-import { darkMode } from "./darkMode";
-
-
 
 const maxAdditionalSize = 5;
 
 export const Dock = () => {
   
+    const [theme, setTheme] = useState('')
+
     useEffect(() => {
       !localStorage.theme && localStorage.setItem('theme','light')
-
+      setTheme('light')
+      
       if(localStorage.theme === 'dark'){
         document.documentElement.classList.add('dark')
+        setTheme('dark')
       }else{
         document.documentElement.classList.add('light')
       }
     }, [])
+
+    const darkMode = () =>{
+
+      if(localStorage.theme === 'dark'){
+          document.documentElement.classList.remove('dark')
+          document.documentElement.classList.add('light')
+          localStorage.theme = 'light'
+          setTheme('light')
+        }else{
+          document.documentElement.classList.remove('light')
+          document.documentElement.classList.add('dark')
+          localStorage.theme = 'dark'
+          setTheme('dark')
+      }
+
+     
+  
+  }
     
   
 
@@ -118,10 +137,15 @@ export const Dock = () => {
         </li>
         <li className="app" onMouseMove={handleAppHover}>
           <button  
-           onClick={darkMode}
-            className="h-[60%] w-[70%] sm:h-[70%] sm:w-[70%]  text-zinc-400 bg-zinc-100 dark:bg-zinc-800 dark:text-zinc-600"   
+          onClick={darkMode}
+          className=" h-[60%] w-[70%] sm:h-[70%] sm:w-[70%]  text-zinc-400 bg-zinc-100 dark:bg-zinc-800 dark:text-zinc-600"   
           >
-           <MdDarkMode size={30}/>
+            {
+              theme === 'light'
+              ? <MdDarkMode  size={30}/>
+              : <MdOutlineLightMode  size={30}/>
+            }
+           
             <span className="tooltip bg-white dark:bg-zinc-900">Toogle theme</span>
           </button>
         </li>

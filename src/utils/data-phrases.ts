@@ -28,7 +28,7 @@ export const data =[
     },
     {
         phrase:` "Stay hungry, stay foolish"`,
-        author:'Robert Kiyosaki'
+        author:'Steve Jobs'
     },
     {
         phrase:` "Don't work for money , make it work for you"`,

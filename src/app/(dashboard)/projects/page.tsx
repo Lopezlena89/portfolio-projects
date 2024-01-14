@@ -16,7 +16,7 @@ export default function Page() {
         <div className="w-full h-[350px] p-1  rounded-lg border boder-solid border-zinc-300 dark:border-zinc-700 ">
           <div className="w-full h-[87%] p-1 rounded-lg bg-gray-100 dark:bg-zinc-900">
             <Image
-              src={"/meme-shop.gif"}
+              src={"/meme-shop.png"}
               width={500}
               height={500}
               priority={true}
@@ -57,7 +57,7 @@ export default function Page() {
               className="rounded-lg dark:bg-zinc-900 w-full h-[100%]"
             /> */}
             <Image
-              src={"/pokemon.gif"}
+              src={"/pokemon.png"}
               width={500}
               height={500}
               priority={true}
@@ -93,7 +93,7 @@ export default function Page() {
               className="rounded-lg dark:bg-zinc-900 w-full h-[100%]"
             /> */}
             <Image
-              src={"/calendar.gif"}
+              src={"/calendar.png"}
               width={500}
               height={500}
               priority={true}
@@ -117,7 +117,7 @@ export default function Page() {
         <div className="w-full h-[270px] p-1  rounded-lg border boder-solid border-zinc-300 dark:border-zinc-700 ">
           <div className="w-full h-[87%] p-1 rounded-lg bg-gray-100 dark:bg-zinc-900">
             <Image
-              src={"/todo-app.gif"}
+              src={"/todo-app.png"}
               width={500}
               height={500}
               alt="Todo App"
@@ -145,7 +145,7 @@ export default function Page() {
       <div className="w-full h-[350px] p-1  rounded-lg border boder-solid border-zinc-300 dark:border-zinc-700 ">
           <div className="w-full h-[87%] p-1 rounded-lg bg-gray-100 dark:bg-zinc-900">
           <Image
-            src={"/poker.gif"}
+            src={"/poker.png"}
             width={500}
             height={500}
             alt="Poker"
@@ -175,7 +175,7 @@ export default function Page() {
             className="rounded-lg dark:bg-zinc-900 w-full h-[100%]"
           /> */}
            <Image
-              src={"/meme-shop.gif"}
+              src={"/meme-shop.png"}
               width={500}
               height={500}
               priority={true}

@@ -1,9 +1,19 @@
+'use client'
+
 import Image from "next/image";
 import Link from "next/link";
+import { useState } from "react";
 
 import { IoIosArrowRoundForward } from "react-icons/io";
-
 export default function Page() {
+
+  const [imageMeme, setImageMeme] = useState(false);
+  const [imageMeme2, setImageMeme2] = useState(false);
+  const [imagePoker, setImagePoker] = useState(false);
+  const [imagePokemon, setImagePokemon] = useState(false);
+  const [imageTodo, setImageTodo] = useState(false);
+  const [imageCalendar, setImageCalendar] = useState(false);
+  
   return (
     <div className="h-screen w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 overflow-auto  bg-gray-100  dark:bg-zinc-900">
       {/* Objeto 1 */}
@@ -11,12 +21,25 @@ export default function Page() {
         <div className="w-full h-[350px] p-1  rounded-lg border boder-solid border-zinc-300 dark:border-zinc-700 ">
           <div className="w-full h-[87%] p-1 rounded-lg bg-gray-100 dark:bg-zinc-900">
             <Image
+              src={`${imageMeme ? "/meme-shop.gif":"/meme-shop.png"}`}
+              width={500}
+              height={500}
+              priority={true}
+              onMouseEnter={()=>setImageMeme(true)}
+              onMouseLeave={()=>setImageMeme(false)}
+              alt="Meme shop"
+              className="first rounded-lg dark:bg-zinc-900 w-full h-[100%] "
+            />
+           
+            {/* <Image
               src={"/meme-shop.png"}
               width={500}
               height={500}
+              priority={true}
               alt="Meme shop"
-              className="rounded-lg dark:bg-zinc-900 w-full h-[100%]"
-            />
+              className="first rounded-lg dark:bg-zinc-900 w-full h-[100%] "
+            /> */}
+           
           </div>
           <div className="w-full h-[13%] pt-1  ">
             <Link
@@ -33,13 +56,23 @@ export default function Page() {
         </div>
         <div className="w-full h-[350px] p-1  rounded-lg border boder-solid border-zinc-300 dark:border-zinc-700 ">
           <div className="w-full h-[87%] p-1 rounded-lg bg-gray-100 dark:bg-zinc-900">
-            <Image
+            {/* <Image
               src="/pokemon.png"
               width={500}
               height={500}
               alt="Pokemon list"
               className="rounded-lg dark:bg-zinc-900 w-full h-[100%]"
-            />
+            /> */}
+            <Image
+              src={`${imagePokemon ? "/pokemon.gif":"/pokemon.png"}`}
+              width={500}
+              height={500}
+              priority={true}
+              onMouseEnter={()=>setImagePokemon(true)}
+              onMouseLeave={()=>setImagePokemon(false)}
+              alt="Meme shop"
+              className="first rounded-lg dark:bg-zinc-900 w-full h-[100%] "
+            /> 
           </div>
           <div className="w-full h-[13%] pt-1  ">
             <Link
@@ -61,13 +94,23 @@ export default function Page() {
       <div className="w-full h-full p-1 rounded-lg flex flex-col ">
         <div className="w-full h-[300px] p-1  rounded-lg border boder-solid border-zinc-300 dark:border-zinc-700 ">
           <div className="w-full h-[87%] p-1 rounded-lg bg-gray-100 dark:bg-zinc-900">
-            <Image
+            {/* <Image
               src="/calendar.png"
               width={500}
               height={500}
               alt="Calendar"
               className="rounded-lg dark:bg-zinc-900 w-full h-[100%]"
-            />
+            /> */}
+            <Image
+              src={`${imageCalendar ? "/calendar.gif":"/calendar.png"}`}
+              width={500}
+              height={500}
+              priority={true}
+              onMouseEnter={()=>setImageCalendar(true)}
+              onMouseLeave={()=>setImageCalendar(false)}
+              alt="Meme shop"
+              className="first rounded-lg dark:bg-zinc-900 w-full h-[100%] "
+            /> 
           </div>
           <div className="w-full h-[13%] pt-1  ">
             <Link
@@ -85,9 +128,11 @@ export default function Page() {
         <div className="w-full h-[270px] p-1  rounded-lg border boder-solid border-zinc-300 dark:border-zinc-700 ">
           <div className="w-full h-[87%] p-1 rounded-lg bg-gray-100 dark:bg-zinc-900">
             <Image
-              src="/todo-app.png"
+              src={`${imageTodo ? "/todo-app.gif":"/todo-app.png"}`}
               width={500}
               height={500}
+              onMouseEnter={()=>setImageTodo(true)}
+              onMouseLeave={()=>setImageTodo(false)}
               alt="Todo App"
               className="rounded-lg dark:bg-zinc-900 w-full h-[100%]"
             />
@@ -113,9 +158,11 @@ export default function Page() {
       <div className="w-full h-[350px] p-1  rounded-lg border boder-solid border-zinc-300 dark:border-zinc-700 ">
           <div className="w-full h-[87%] p-1 rounded-lg bg-gray-100 dark:bg-zinc-900">
           <Image
-            src="/poker.png"
+            src={`${imagePoker ? "/poker.gif":"/poker.png"}`}
             width={500}
             height={500}
+            onMouseEnter={()=>setImagePoker(true)}
+            onMouseLeave={()=>setImagePoker(false)}
             alt="Poker"
             className="rounded-lg dark:bg-zinc-900 w-full h-[100%]"
           />
@@ -135,13 +182,23 @@ export default function Page() {
         </div>
         <div className="w-full h-[350px] p-1  rounded-lg border boder-solid border-zinc-300 dark:border-zinc-700 ">
           <div className="w-full h-[87%] p-1 rounded-lg bg-gray-100 dark:bg-zinc-900">
-          <Image
+          {/* <Image
             src="/meme-shop.png"
             width={500}
             height={500}
             alt="Meme shop"
             className="rounded-lg dark:bg-zinc-900 w-full h-[100%]"
-          />
+          /> */}
+           <Image
+              src={`${imageMeme2 ? "/meme-shop.gif":"/meme-shop.png"}`}
+              width={500}
+              height={500}
+              priority={true}
+              onMouseEnter={()=>setImageMeme2(true)}
+              onMouseLeave={()=>setImageMeme2(false)}
+              alt="Meme shop"
+              className="first rounded-lg dark:bg-zinc-900 w-full h-[100%] "
+            />
           </div>
           <div className="w-full h-[13%] pt-1  ">
             <Link

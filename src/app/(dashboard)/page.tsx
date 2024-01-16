@@ -15,7 +15,7 @@ export default function Home() {
     function random(min:number, max:number) {
       return min + Math.random() * (max - min);
     }
-    setNumber(Math.floor(random(0,11)))
+    setNumber(Math.floor(random(0,13)))
   }, [])
   
 

@@ -46,6 +46,14 @@ export const data =[
         phrase:` "Think different"`,
         author:'Apple Campaign'
     },
+    {
+        phrase:` "First, think. Second, believe. Third, dream. And finally, dare"`,
+        author:'Walt Disney'
+    },
+    {
+        phrase:` "We're only as good as our next picture"`,
+        author:'Walt Disney'
+    },
     
 
 ]

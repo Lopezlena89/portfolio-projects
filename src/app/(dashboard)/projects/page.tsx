@@ -145,16 +145,16 @@ export default function Page() {
       <div className="w-full h-[350px] p-1  rounded-lg border boder-solid border-zinc-300 dark:border-zinc-700 ">
           <div className="w-full h-[87%] p-1 rounded-lg bg-gray-100 dark:bg-zinc-900">
           <Image
-            src={"/poker.png"}
+            src={"/questions-ai.png"}
             width={500}
             height={500}
-            alt="Poker"
+            alt="Questions-ai"
             className="rounded-lg dark:bg-zinc-900 w-full h-[100%]"
           />
           </div>
           <div className="w-full h-[13%] pt-1  ">
             <Link
-              href={'https://dapper-pika-0f9ebf.netlify.app/'}
+              href={'https://questions-ai.onrender.com/#/auth'}
               className="w-full h-full pt-1 rounded-lg bg-gray-100  "
               target="_black"
             >
@@ -175,17 +175,16 @@ export default function Page() {
             className="rounded-lg dark:bg-zinc-900 w-full h-[100%]"
           /> */}
            <Image
-              src={"/meme-shop.png"}
-              width={500}
-              height={500}
-              priority={true}
-              alt="Meme shop"
-              className="first rounded-lg dark:bg-zinc-900 w-full h-[100%] "
-            />
+            src={"/poker.png"}
+            width={500}
+            height={500}
+            alt="Poker"
+            className="rounded-lg dark:bg-zinc-900 w-full h-[100%]"
+          />
           </div>
           <div className="w-full h-[13%] pt-1  ">
-            <Link
-              href={'https://01shopmeme.vercel.app/'}
+          <Link
+              href={'https://dapper-pika-0f9ebf.netlify.app/'}
               className="w-full h-full pt-1 rounded-lg bg-gray-100  "
               target="_black"
             >

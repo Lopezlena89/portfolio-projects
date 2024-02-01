@@ -154,7 +154,7 @@ export default function Page() {
           </div>
           <div className="w-full h-[13%] pt-1  ">
             <Link
-              href={'https://playful-cactus-4caed1.netlify.app/#/auth'}
+              href={'https://questions-ai.onrender.com/#/auth'}
               className="w-full h-full pt-1 rounded-lg bg-gray-100  "
               target="_black"
             >

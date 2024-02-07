@@ -14,7 +14,7 @@ export default function RootLayout({
 }) {
   
   return (
-    <div className='w-screen h-screen bg-white flex flex-col items-center  '>
+    <div className='layform w-screen h-screen flex flex-col items-center  '>
             {children}
     </div>
  

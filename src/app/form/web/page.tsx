@@ -1,4 +1,6 @@
 'use client'
+
+import { Input} from "@nextui-org/react";
 import Image from "next/image"
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
@@ -8,7 +10,7 @@ import {  SubmitHandler, useForm } from 'react-hook-form';
 import Swal from "sweetalert2";
 
 import { resendEmail } from "@/utils/resend-email";
-import { Input} from "@nextui-org/react";
+
 
 
 interface FormInputs{
@@ -67,6 +69,7 @@ export default function PageForm() {
                       pagination={true}
                       modules={[Pagination]}
                       className="h-full"
+
                     >
                     <SwiperSlide className="">
                     <div className="w-full h-full flex flex-col items-start  p-2">
@@ -108,7 +111,7 @@ export default function PageForm() {
                         <span className=" font-serif text-lg text-white font-bold"> Informacion del proyecto</span>
                         <Input 
                           type="text"
-                          label="Cual es el proposito principal del sitio?:"
+                          label=" Proposito principal del sitio?:"
                           className=" mt-5 outline-none "
                           { ...register('proposito') }
                           name='proposito'

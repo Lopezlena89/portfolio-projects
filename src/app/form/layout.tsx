@@ -3,7 +3,7 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Form',
+  title: 'Formulario',
   description: 'Portfolio about my experience',
 }
 

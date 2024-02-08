@@ -78,7 +78,7 @@ export default function PageForm() {
                       {/* <span  className=" mt-3 text-white">Nombre de la empresa:</span> */}
                       <Input 
                           type="text"
-                          label="Nombre de la empresa"
+                          label="Nombre de la empresa:"
                           isInvalid={errors.name ? true :false}
                          
                           errorMessage={errors.name && "El nombre es requerido"}
@@ -111,14 +111,14 @@ export default function PageForm() {
                         <span className=" font-serif text-lg text-white font-bold"> Informacion del proyecto</span>
                         <Input 
                           type="text"
-                          label=" Proposito principal del sitio?:"
+                          label=" Proposito principal del sitio:"
                           className=" mt-5 outline-none "
                           { ...register('proposito') }
                           name='proposito'
                         />
                         <Input 
                           type="text"
-                          label="Preferencial del diseño:"
+                          label="Preferencias del diseño:"
                           className=" mt-5 outline-none "
                           { ...register('preferencias') }
                           name='preferencias'
@@ -126,7 +126,7 @@ export default function PageForm() {
                         
                         <Input 
                           type="text"
-                          label="Caracteristicas clave del sitio?:"
+                          label="Caracteristicas clave del sitio:"
                           className=" mt-5 outline-none "
                           { ...register('caracteristicas') }
                           name='caracteristicas'
@@ -134,14 +134,14 @@ export default function PageForm() {
                         
                         <Input 
                           type="text"
-                          label="Tipo de contenido que se mostrara?:"
+                          label="Tipo de contenido que se mostrara:"
                           className=" mt-5 outline-none "
                           { ...register('contenido') }
                           name='contenido'
                         />
                         <Input 
                           type="text"
-                          label="Quien proporcionara el contenido?:"
+                          label="Quien proporcionara el contenido:"
                           className=" mt-5 outline-none"
                           { ...register('quien') }
                           name='quien'
@@ -157,7 +157,7 @@ export default function PageForm() {
                         
                         <Input 
                           type="email"
-                          label="Correo"
+                          label="Correo:"
                           isInvalid={errors.name ? true :false}
                           errorMessage={errors.name && "El correo es requerido"}
                           className=" mt-5 outline-none text-left"

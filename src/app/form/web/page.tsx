@@ -66,7 +66,10 @@ export default function PageForm() {
                   className="w-full h-5/6"  
                 >
                     <Swiper
-                      pagination={true}
+                      spaceBetween={30}
+                      pagination={{
+                        clickable: true,
+                      }}
                       modules={[Pagination]}
                       className="h-full"
 

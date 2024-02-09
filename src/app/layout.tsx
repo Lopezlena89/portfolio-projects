@@ -9,7 +9,7 @@ import { Providers } from '@/components/providers/Providers';
 export const metadata: Metadata = {
   title: 'Profile',
   description: 'Portfolio about my experience',
-  
+  keywords:['portfolio','web design','Nextjs','React'],
 }
 
 export default function RootLayout({

@@ -10,7 +10,7 @@ export default function Page() {
   
   
   return (
-    <div className="h-screen w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 overflow-auto  bg-gray-100  dark:bg-zinc-900">
+    <div className="h-full w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 overflow-auto  bg-gray-100  dark:bg-zinc-900">
       {/* Objeto 1 */}
       <div className="w-full h-full p-1 rounded-lg flex flex-col ">
         <div className="w-full h-[350px] p-1  rounded-lg border boder-solid border-zinc-300 dark:border-zinc-700 ">
@@ -23,15 +23,6 @@ export default function Page() {
               alt="Meme shop"
               className="first rounded-lg dark:bg-zinc-900 w-full h-[100%] "
             />
-           
-            {/* <Image
-              src={"/meme-shop.png"}
-              width={500}
-              height={500}
-              priority={true}
-              alt="Meme shop"
-              className="first rounded-lg dark:bg-zinc-900 w-full h-[100%] "
-            /> */}
            
           </div>
           <div className="w-full h-[13%] pt-1  ">
@@ -49,13 +40,7 @@ export default function Page() {
         </div>
         <div className="w-full h-[350px] p-1  rounded-lg border boder-solid border-zinc-300 dark:border-zinc-700 ">
           <div className="w-full h-[87%] p-1 rounded-lg bg-gray-100 dark:bg-zinc-900">
-            {/* <Image
-              src="/pokemon.png"
-              width={500}
-              height={500}
-              alt="Pokemon list"
-              className="rounded-lg dark:bg-zinc-900 w-full h-[100%]"
-            /> */}
+           
             <Image
               src={"/pokemon.png"}
               width={500}
@@ -85,6 +70,31 @@ export default function Page() {
       <div className="w-full h-full p-1 rounded-lg flex flex-col ">
         <div className="w-full h-[300px] p-1  rounded-lg border boder-solid border-zinc-300 dark:border-zinc-700 ">
           <div className="w-full h-[87%] p-1 rounded-lg bg-gray-100 dark:bg-zinc-900">
+            
+            <Image
+              src={"/pure-in-heart.png"}
+              width={500}
+              height={500}
+              priority={true}
+              alt="Pure In Heart"
+              className="first rounded-lg dark:bg-zinc-900 w-full h-[100%] "
+            /> 
+          </div>
+          <div className="w-full h-[13%] pt-1  ">
+            <Link
+              href={'https://genuine-duckanoo-ee72b4.netlify.app/'}
+              className="w-full h-full pt-1 rounded-lg bg-gray-100  "
+              target="_black"
+            >
+              <div className="w-full h-full rounded-lg flex justify-center items-center bg-zinc-200  dark:bg-zinc-700 dark:text-zinc-100  ">
+                <span className="font-medium">Go to project</span>
+                <IoIosArrowRoundForward className='ml-2 dark:text-zinc-100' />
+              </div>
+            </Link>
+          </div>
+        </div>
+        <div className="w-full h-[300px] p-1  rounded-lg border boder-solid border-zinc-300 dark:border-zinc-700 ">
+          <div className="w-full h-[87%] p-1 rounded-lg bg-gray-100 dark:bg-zinc-900">
             {/* <Image
               src="/calendar.png"
               width={500}
@@ -97,7 +107,7 @@ export default function Page() {
               width={500}
               height={500}
               priority={true}
-              alt="Meme shop"
+              alt="Calendar-Time app"
               className="first rounded-lg dark:bg-zinc-900 w-full h-[100%] "
             /> 
           </div>

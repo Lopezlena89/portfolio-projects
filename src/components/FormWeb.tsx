@@ -11,6 +11,6 @@ export const FormWeb = () => {
     <div className="w-3/6 h-4/6 bg-[#f3eee9] flex flex-col rounded-xl shadow-xl">
               
             
-      </div>
+    </div>
   )
 }

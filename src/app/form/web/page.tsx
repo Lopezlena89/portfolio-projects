@@ -54,7 +54,7 @@ export default function PageForm() {
                 <div className="w-full h-20 flex justify-end items-center">
                   
                   <Image
-                    src='/LOGO-03.png' 
+                    src='/LOGO-03.webp' 
                     width={120} 
                     height={120} 
                     alt="Logo Lumaba"
@@ -198,7 +198,7 @@ export default function PageForm() {
                 </form>
                 
               </div>
-              <div className="h-full w-0  bg-[url('/fondo-2.png')] flex rounded-xl  lg:w-1/2">
+              <div className="h-full w-0  bg-[url('/fondo-2.webp')] flex rounded-xl  lg:w-1/2">
                
               </div>
             </div>

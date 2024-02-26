@@ -16,7 +16,7 @@ export default function Page() {
         <div className="w-full h-[350px] p-1  rounded-lg border boder-solid border-zinc-300 dark:border-zinc-700 ">
           <div className="w-full h-[87%] p-1 rounded-lg bg-gray-100 dark:bg-zinc-900">
             <Image
-              src={"/meme-shop.png"}
+              src={"/meme-shop.webp"}
               width={500}
               height={500}
               priority={true}
@@ -42,7 +42,7 @@ export default function Page() {
           <div className="w-full h-[87%] p-1 rounded-lg bg-gray-100 dark:bg-zinc-900">
            
             <Image
-              src={"/pokemon.png"}
+              src={"/pokemon.webp"}
               width={500}
               height={500}
               priority={true}
@@ -72,7 +72,7 @@ export default function Page() {
           <div className="w-full h-[87%] p-1 rounded-lg bg-gray-100 dark:bg-zinc-900">
             
             <Image
-              src={"/pure-in-heart.png"}
+              src={"/pure-in-heart.webp"}
               width={500}
               height={500}
               priority={true}
@@ -96,14 +96,14 @@ export default function Page() {
         <div className="w-full h-[300px] p-1  rounded-lg border boder-solid border-zinc-300 dark:border-zinc-700 ">
           <div className="w-full h-[87%] p-1 rounded-lg bg-gray-100 dark:bg-zinc-900">
             {/* <Image
-              src="/calendar.png"
+              src="/calendar.webp"
               width={500}
               height={500}
               alt="Calendar"
               className="rounded-lg dark:bg-zinc-900 w-full h-[100%]"
             /> */}
             <Image
-              src={"/calendar.png"}
+              src={"/calendar.webp"}
               width={500}
               height={500}
               priority={true}
@@ -127,7 +127,7 @@ export default function Page() {
         <div className="w-full h-[270px] p-1  rounded-lg border boder-solid border-zinc-300 dark:border-zinc-700 ">
           <div className="w-full h-[87%] p-1 rounded-lg bg-gray-100 dark:bg-zinc-900">
             <Image
-              src={"/todo-app.png"}
+              src={"/todo-app.webp"}
               width={500}
               height={500}
               alt="Todo App"
@@ -152,10 +152,34 @@ export default function Page() {
       </div>
       {/* Objeto 3 */}
       <div className="w-full h-full p-1 rounded-lg flex flex-col ">
-      <div className="w-full h-[350px] p-1  rounded-lg border boder-solid border-zinc-300 dark:border-zinc-700 ">
+        <div className="w-full h-[350px] p-1  rounded-lg border boder-solid border-zinc-300 dark:border-zinc-700 ">
           <div className="w-full h-[87%] p-1 rounded-lg bg-gray-100 dark:bg-zinc-900">
           <Image
-            src={"/questions-ai.png"}
+            src={"/smart-nutrition.webp"}
+            width={500}
+            height={500}
+            alt="Street Smart Nutrition"
+            className="rounded-lg dark:bg-zinc-900 w-full h-[100%]"
+          />
+          </div>
+          <div className="w-full h-[13%] pt-1  ">
+            <Link
+              href={'https://thriving-cactus-97f706.netlify.app/'}
+           
+              className="w-full h-full pt-1 rounded-lg bg-gray-100  "
+              target="_black"
+            >
+              <div className="w-full h-full rounded-lg flex justify-center items-center bg-zinc-200  dark:bg-zinc-700 dark:text-zinc-100  ">
+                <span className="font-medium">Go to project</span>
+                <IoIosArrowRoundForward className='ml-2 dark:text-zinc-100' />
+              </div>
+            </Link>
+          </div>
+        </div>
+        <div className="w-full h-[350px] p-1  rounded-lg border boder-solid border-zinc-300 dark:border-zinc-700 ">
+          <div className="w-full h-[87%] p-1 rounded-lg bg-gray-100 dark:bg-zinc-900">
+          <Image
+            src={"/questions-ai.webp"}
             width={500}
             height={500}
             alt="Questions-ai"
@@ -179,14 +203,14 @@ export default function Page() {
         <div className="w-full h-[350px] p-1  rounded-lg border boder-solid border-zinc-300 dark:border-zinc-700 ">
           <div className="w-full h-[87%] p-1 rounded-lg bg-gray-100 dark:bg-zinc-900">
           {/* <Image
-            src="/meme-shop.png"
+            src="/meme-shop.webp"
             width={500}
             height={500}
             alt="Meme shop"
             className="rounded-lg dark:bg-zinc-900 w-full h-[100%]"
           /> */}
            <Image
-            src={"/poker.png"}
+            src={"/poker.webp"}
             width={500}
             height={500}
             alt="Poker"

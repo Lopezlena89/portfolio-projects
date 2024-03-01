@@ -1,8 +1,8 @@
-'use client'
+
 
 import Image from "next/image";
 import Link from "next/link";
-import { useState } from "react";
+
 
 import { IoIosArrowRoundForward } from "react-icons/io";
 export default function Page() {
@@ -228,13 +228,7 @@ export default function Page() {
         </div>
         <div className="w-full h-[350px] p-1  rounded-lg border boder-solid border-zinc-300 dark:border-zinc-700 ">
           <div className="w-full h-[87%] p-1 rounded-lg bg-gray-100 dark:bg-zinc-900">
-          {/* <Image
-            src="/meme-shop.webp"
-            width={500}
-            height={500}
-            alt="Meme shop"
-            className="rounded-lg dark:bg-zinc-900 w-full h-[100%]"
-          /> */}
+          
            <Image
             src={"/poker.webp"}
             width={500}

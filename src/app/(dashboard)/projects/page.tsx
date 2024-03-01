@@ -10,9 +10,9 @@ export default function Page() {
   
   
   return (
-    <div className="h-full w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 overflow-auto  bg-gray-100  dark:bg-zinc-900">
+    <main className="h-full w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 overflow-auto  bg-gray-100  dark:bg-zinc-900">
       {/* Objeto 1 */}
-      <div className="w-full h-full p-1 rounded-lg flex flex-col ">
+      <section className="w-full h-full p-1 rounded-lg flex flex-col ">
         <div className="w-full h-[350px] p-1  rounded-lg border boder-solid border-zinc-300 dark:border-zinc-700 ">
           <div className="w-full h-[87%] p-1 rounded-lg bg-gray-100 dark:bg-zinc-900">
             <Image
@@ -90,9 +90,9 @@ export default function Page() {
         </div>
 
 
-      </div>
+      </section>
       {/* Objeto 2 */}
-      <div className="w-full h-full p-1 rounded-lg flex flex-col ">
+      <section className="w-full h-full p-1 rounded-lg flex flex-col ">
         <div className="w-full h-[300px] p-1  rounded-lg border boder-solid border-zinc-300 dark:border-zinc-700 ">
           <div className="w-full h-[87%] p-1 rounded-lg bg-gray-100 dark:bg-zinc-900">
             
@@ -174,9 +174,9 @@ export default function Page() {
         </div>
         
 
-      </div>
+      </section>
       {/* Objeto 3 */}
-      <div className="w-full h-full p-1 rounded-lg flex flex-col ">
+      <section className="w-full h-full p-1 rounded-lg flex flex-col ">
         <div className="w-full h-[350px] p-1  rounded-lg border boder-solid border-zinc-300 dark:border-zinc-700 ">
           <div className="w-full h-[87%] p-1 rounded-lg bg-gray-100 dark:bg-zinc-900">
           <Image
@@ -251,9 +251,9 @@ export default function Page() {
           </div>
         </div>
 
-      </div>
+      </section>
 
 
-    </div>
+    </main>
   )
 }

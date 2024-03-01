@@ -21,10 +21,10 @@ export default function Home() {
 
   return (
     <>
-        <div className="w-full h-screen flex flex-col bg-gray-100  dark:bg-zinc-900 overflow-auto">
-          <div className="w-full h-20">
-          </div>
-          <div className="w-full h-full flex justify-center items-center">
+        <main className="w-full h-screen flex flex-col bg-gray-100  dark:bg-zinc-900 overflow-auto">
+          <section className="w-full h-20">
+          </section>
+          <section className="w-full h-full flex justify-center items-center">
             <div className="w-4/6 h-2/5">
                 <div className="flex justify-center items-center relative">
                   <h1 className="font-semibold text-2xl absolute dark:text-zinc-100 mb-10">Welcome</h1>
@@ -36,12 +36,12 @@ export default function Home() {
                 ))
                }
             </div>
-          </div>
-          <div className="w-full h-20 px-5 flex justify-between items-center">
+          </section>
+          <footer className="w-full h-20 px-5 flex justify-between items-center">
             <Footer/>
-          </div>
+          </footer>
 
-        </div>
+        </main>
     </>
   )
 }

@@ -9,7 +9,8 @@ import { Providers } from '@/components/providers/Providers';
 export const metadata: Metadata = {
   title: 'Profile',
   description: 'Portfolio about my experience',
-  keywords:['portfolio','web design','Nextjs','React'],
+  keywords:["portfolio","lumava","web developer"],
+  authors:[{ name: "Luis Mariano Lopez Lena Valdivieso", url: "https://lumava.dev" }]
 }
 
 export default function RootLayout({

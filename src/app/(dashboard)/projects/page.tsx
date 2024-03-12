@@ -71,7 +71,7 @@ export default function Page() {
               width={500}
               height={500}
               priority={true}
-              alt="Meme shop"
+              alt="Pokemon shop"
               className="first rounded-lg dark:bg-zinc-900 w-full h-[100%] "
             /> 
           </div>
@@ -93,6 +93,31 @@ export default function Page() {
       </section>
       {/* Objeto 2 */}
       <section className="w-full h-full p-1 rounded-lg flex flex-col ">
+        <div className="w-full h-[300px] p-1  rounded-lg border boder-solid border-zinc-300 dark:border-zinc-700 ">
+          <div className="w-full h-[87%] p-1 rounded-lg bg-gray-100 dark:bg-zinc-900">
+            
+            <Image
+              src={"/lumava.webp"}
+              width={500}
+              height={500}
+              priority={true}
+              alt="Lumava"
+              className="first rounded-lg dark:bg-zinc-900 w-full h-[100%] "
+            /> 
+          </div>
+          <div className="w-full h-[13%] pt-1  ">
+            <Link
+              href={'https://lumava.site'}
+              className="w-full h-full pt-1 rounded-lg bg-gray-100  "
+              target="_black"
+            >
+              <div className="w-full h-full rounded-lg flex justify-center items-center bg-zinc-200  dark:bg-zinc-800 dark:text-zinc-100  ">
+                <span className="font-medium">Go to project</span>
+                <IoIosArrowRoundForward className='ml-2 dark:text-zinc-100' />
+              </div>
+            </Link>
+          </div>
+        </div>
         <div className="w-full h-[300px] p-1  rounded-lg border boder-solid border-zinc-300 dark:border-zinc-700 ">
           <div className="w-full h-[87%] p-1 rounded-lg bg-gray-100 dark:bg-zinc-900">
             

@@ -205,6 +205,30 @@ export default function Page() {
         <div className="w-full h-[350px] p-1  rounded-lg border boder-solid border-zinc-300 dark:border-zinc-700 ">
           <div className="w-full h-[87%] p-1 rounded-lg bg-gray-100 dark:bg-zinc-900">
           <Image
+            src={"/belafresh.webp"}
+            width={500}
+            height={500}
+            alt="Belafresh.com"
+            className="rounded-lg dark:bg-zinc-900 w-full h-[100%]"
+          />
+          </div>
+          <div className="w-full h-[13%] pt-1  ">
+            <Link
+              href={'https://belafresh.com'}
+           
+              className="w-full h-full pt-1 rounded-lg bg-gray-100  "
+              target="_black"
+            >
+              <div className="w-full h-full rounded-lg flex justify-center items-center bg-zinc-200  dark:bg-zinc-800 dark:text-zinc-100  ">
+                <span className="font-medium">Go to project</span>
+                <IoIosArrowRoundForward className='ml-2 dark:text-zinc-100' />
+              </div>
+            </Link>
+          </div>
+        </div>
+        <div className="w-full h-[350px] p-1  rounded-lg border boder-solid border-zinc-300 dark:border-zinc-700 ">
+          <div className="w-full h-[87%] p-1 rounded-lg bg-gray-100 dark:bg-zinc-900">
+          <Image
             src={"/smart-nutrition.webp"}
             width={500}
             height={500}
